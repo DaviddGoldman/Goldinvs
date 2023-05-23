@@ -1,37 +1,69 @@
+/* Estilos para el encabezado (header) */
+header {
+  background-color: #0066CC;
+  padding: 48px;
+}
 
-  /* Estilos de encabezado y navegación */
-  header {
-    background-color: #333;
-    padding: 10px 0;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    font-size: 16px;
-    transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #fca311;
-  }
-  
+.logo {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
 
+/* Estilos para la barra de navegación (navbar) */
+.navbar {
+  background-color: transparent;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+  z-index: 999;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-menu li:first-child {
+  margin-left: 0;
+}
+
+.nav-menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  background-color: #FFFFFF;
+  color: #0066CC;
+}
+
+
+  
+/* Estilos de boton */
   .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #FFC107;
+    background-color: #0066CC;
     color: #FFFFFF;
     font-size: 18px;
     text-decoration: none;
@@ -39,64 +71,13 @@
   }
   
   .cta-button:hover {
-    background-color: #FFA000;
+    
+    background-color: #1a1e22;
   }
   
   .cta-button:active {
-    background-color: #FF8F00;
-  }
-  /* Estilos de secciones */
-  section {
-    padding: 40px 0;
+    background-color: #04e2ff;
   }
   
-  section h2 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
   
-  /* Estilos de cursos y equipo de tutores */
-  .curso, .tutor {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
   
-  .curso h3, .tutor h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-  
-  /* Estilos de formulario de contacto */
-  form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  form button {
-    background-color: #fca311;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  form button:hover {
-    background-color: #e69500;
-  }
-  
-  /* Estilos de pie de página */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  footer p {
-    margin: 0;
-    font-size: 14px;
-  }

@@ -8,14 +8,16 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#cursos">Cursos</a></li>
-        <li><a href="#equipo">Equipo de Tutores</a></li>
-        <li><a href="#recursos">Recursos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">Goldinvs</a>
+        <ul class="nav-menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 
@@ -44,18 +46,18 @@
     </div>
   </section>
 
-  <section id="equipo">
-    <div class="container">
-      <h2>Equipo de Tutores</h2>
+  <section id="equipo" class="equipo-section">
+    <div class="container equipo-container">
+      <h2 class="equipo-title">Equipo de Tutores</h2>
       <div class="tutor">
-        <img src="tutor1.jpg" alt="Tutor 1">
-        <h3>Nombre del Tutor 1</h3>
-        <p>Experto en inversiones con más de 10 años de experiencia.</p>
+        <img src="./assets/images/me.jpg" alt="Tutor 1" class="tutor-image">
+        <h3 class="tutor-name">David Goldman</h3>
+        <p class="tutor-description">Experto en inversiones con más de 5 años de experiencia.</p>
       </div>
       <div class="tutor">
-        <img src="tutor2.jpg" alt="Tutor 2">
-        <h3>Nombre del Tutor 2</h3>
-        <p>Analista financiero con amplio conocimiento en mercados internacionales.</p>
+        <img src="./assets/images/emiliano2.jpeg" alt="Tutor 2" class="tutor-image">
+        <h3 class="tutor-name">Emiliano Gallegos</h3>
+        <p class="tutor-description">Analista financiero con amplio conocimiento en mercados internacionales.</p>
       </div>
       <!-- Agrega más tutores según sea necesario -->
     </div>
@@ -70,18 +72,17 @@
 <a href="#">Grupos de Discusión</a>
 </div>
 
-  </section>
-  <section id="contacto">
-    <div class="container">
-      <h2>Contacto</h2>
-      <p>¡Contáctanos para obtener más información sobre nuestros servicios!</p>
-      <form>
-        <input type="email" placeholder="Correo electrónico">
-        <textarea placeholder="Mensaje"></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+<section id="contacto" class="contacto-section">
+  <div class="container">
+    <h2 class="contacto-title">Contacto</h2>
+    <p class="contacto-description">¡Contáctanos para obtener más información sobre nuestros servicios!</p>
+    <div class="social-buttons">
+      <a href="enlace-a-tu-grupo-de-WhatsApp" class="whatsapp-button">Unirse al grupo de WhatsApp</a>
+      <a href="enlace-a-tu-perfil-de-Instagram" class="instagram-button">Seguir en Instagram</a>
+      <a href="enlace-a-tu-pagina-de-Facebook" class="facebook-button">Seguir en Facebook</a>
     </div>
-  </section>
+  </div>
+</section>
 
   <footer>
     <div class="container">

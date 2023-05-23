@@ -1,13 +1,100 @@
-/* Estilos de cursos y equipo de tutores */
-.curso, .tutor {
-    border: 1px solid #ccc;
-    padding: 20px;
+#cursos-programas {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #cursos-programas h2 {
+    font-size: 32px;
+    color: #0066CC;
     margin-bottom: 20px;
+  }
+  
+  .curso {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .curso:hover {
+    transform: translateY(-5px);
+  }
+  
+  .curso h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .curso p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .curso a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066CC;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .curso a:hover {
+    background-color: #004B8C;
+  }
+
+  .equipo-section {
+    background-color: #F4F4F4;
+    padding: 40px 0;
+  }
+  
+  .equipo-container {
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
   }
   
-  .curso h3, .tutor h3 {
-    font-size: 22px;
+  .equipo-title {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .tutor {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tutor-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 10px;
+  }
+  
+  .tutor-name {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .tutor-description {
+    color: #666666;
+    margin-bottom: 20px;
   }
   

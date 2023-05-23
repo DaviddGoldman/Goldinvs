@@ -1,18 +1,39 @@
-/* Estilos de formulario de contacto */
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+.contacto-section {
+    background-color: #f2f2f2;
+    padding: 50px 0;
   }
   
-  form button {
-    background-color: #fca311;
-    color: #fff;
-    border: none;
+  .contacto-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #084b7a;
+    margin-bottom: 20px;
+  }
+  
+  .contacto-description {
+    text-align: center;
+    color: #084b7a;
+    margin-bottom: 40px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-buttons a {
+    display: inline-block;
+    margin: 0 10px;
     padding: 10px 20px;
-    cursor: pointer;
+    background-color: #084b7a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
   }
   
-  form button:hover {
-    background-color: #e69500;
+  .social-buttons a:hover {
+    background-color: #073956;
   }
+  

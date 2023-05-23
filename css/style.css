@@ -1,90 +1,70 @@
 @charset "UTF-8";
-/* Estilos de encabezado y navegación */
+/* Estilos para el encabezado (header) */
 header {
-  background-color: #333;
-  padding: 10px 0; }
+  background-color: #0066CC;
+  padding: 48px; }
 
-nav ul {
-  list-style-type: none;
+.logo {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none; }
+
+/* Estilos para la barra de navegación (navbar) */
+.navbar {
+  background-color: transparent;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+  z-index: 999; }
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.nav-menu {
+  list-style: none;
   margin: 0;
-  padding: 0;
-  text-align: center; }
+  padding: 0; }
 
-nav ul li {
+.nav-menu li {
   display: inline-block;
-  margin-right: 20px; }
+  margin-left: 20px; }
 
-nav ul li a {
-  color: #fff;
-  font-size: 16px;
-  transition: color 0.3s ease; }
+.nav-menu li:first-child {
+  margin-left: 0; }
 
-nav ul li a:hover {
-  color: #fca311; }
+.nav-menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; }
 
+.nav-menu a:hover {
+  background-color: #FFFFFF;
+  color: #0066CC; }
+
+/* Estilos de boton */
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #FFC107;
+  background-color: #0066CC;
   color: #FFFFFF;
   font-size: 18px;
   text-decoration: none;
   border-radius: 5px; }
 
 .cta-button:hover {
-  background-color: #FFA000; }
+  background-color: #1a1e22; }
 
 .cta-button:active {
-  background-color: #FF8F00; }
+  background-color: #04e2ff; }
 
-/* Estilos de secciones */
-section {
-  padding: 40px 0; }
-
-section h2 {
-  font-size: 28px;
-  text-align: center;
-  margin-bottom: 20px; }
-
-/* Estilos de cursos y equipo de tutores */
-.curso, .tutor {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
-  text-align: center; }
-
-.curso h3, .tutor h3 {
-  font-size: 22px;
-  margin-bottom: 10px; }
-
-/* Estilos de formulario de contacto */
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px; }
-
-form button {
-  background-color: #fca311;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer; }
-
-form button:hover {
-  background-color: #e69500; }
-
-/* Estilos de pie de página */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center; }
-
-footer p {
-  margin: 0;
-  font-size: 14px; }
-
-/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -95,8 +75,34 @@ body {
   margin: 0 auto;
   padding: 20px; }
 
-a {
-  text-decoration: none; }
+/* Estilos para los títulos */
+h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-top: 0; }
+
+h3 {
+  font-size: 20px;
+  color: #333333; }
+
+/* Estilos para los párrafos */
+p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5; }
+
+/* Estilos para los botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0066CC;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; }
+
+.button:hover {
+  background-color: #004C99; }
 
 /* Estilos de secciones */
 section {
@@ -107,32 +113,165 @@ section h2 {
   text-align: center;
   margin-bottom: 20px; }
 
-/* Estilos de cursos y equipo de tutores */
-.curso, .tutor {
-  border: 1px solid #ccc;
+#recursos-comunidad {
+  text-align: center;
+  margin-bottom: 40px; }
+
+#recursos-comunidad h2 {
+  font-size: 32px;
+  color: #0066CC;
+  margin-bottom: 20px; }
+
+.recurso {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
   padding: 20px;
-  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; }
+
+.recurso:hover {
+  transform: translateY(-5px); }
+
+.recurso h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px; }
+
+.recurso p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px; }
+
+.recurso a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0066CC;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s; }
+
+#cursos-programas {
+  text-align: center;
+  margin-bottom: 40px; }
+
+#cursos-programas h2 {
+  font-size: 32px;
+  color: #0066CC;
+  margin-bottom: 20px; }
+
+.curso {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; }
+
+.curso:hover {
+  transform: translateY(-5px); }
+
+.curso h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px; }
+
+.curso p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px; }
+
+.curso a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0066CC;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; }
+
+.curso a:hover {
+  background-color: #004B8C; }
+
+.equipo-section {
+  background-color: #F4F4F4;
+  padding: 40px 0; }
+
+.equipo-container {
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center; }
 
-.curso h3, .tutor h3 {
-  font-size: 22px;
+.equipo-title {
+  font-size: 28px;
+  color: #333333;
+  margin-bottom: 20px; }
+
+.tutor {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.tutor-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
   margin-bottom: 10px; }
 
-/* Estilos de formulario de contacto */
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
+.tutor-name {
+  font-size: 20px;
+  color: #333333;
   margin-bottom: 10px; }
 
-form button {
-  background-color: #fca311;
-  color: #fff;
-  border: none;
+.tutor-description {
+  color: #666666;
+  margin-bottom: 20px; }
+
+.contacto-section {
+  background-color: #f2f2f2;
+  padding: 50px 0; }
+
+.contacto-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #084b7a;
+  margin-bottom: 20px; }
+
+.contacto-description {
+  text-align: center;
+  color: #084b7a;
+  margin-bottom: 40px; }
+
+.social-buttons {
+  display: flex;
+  justify-content: center; }
+
+.social-buttons a {
+  display: inline-block;
+  margin: 0 10px;
   padding: 10px 20px;
-  cursor: pointer; }
+  background-color: #084b7a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; }
 
-form button:hover {
-  background-color: #e69500; }
+.social-buttons a:hover {
+  background-color: #073956; }
 
 /* Estilos de pie de página */
 footer {
