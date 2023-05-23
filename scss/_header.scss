@@ -1,20 +1,4 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
+
   /* Estilos de encabezado y navegación */
   header {
     background-color: #333;
@@ -43,6 +27,24 @@ body {
     color: #fca311;
   }
   
+
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC107;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #FFA000;
+  }
+  
+  .cta-button:active {
+    background-color: #FF8F00;
+  }
   /* Estilos de secciones */
   section {
     padding: 40px 0;
