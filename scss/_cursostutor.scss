@@ -98,3 +98,44 @@
     margin-bottom: 20px;
   }
   
+  #recursos {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  #recursos .container {
+    text-align: center;
+  }
+  
+  #recursos h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #084b7a;
+    margin-bottom: 20px;
+  }
+  
+  #recursos p {
+    font-size: 18px;
+    color: #084b7a;
+    margin-bottom: 40px;
+  }
+  
+  #recursos a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #084b7a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #recursos a:hover {
+    background-color: #073956;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  

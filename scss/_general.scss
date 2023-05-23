@@ -45,4 +45,24 @@ h2 {
   .button:hover {
     background-color: #004C99;
   }
+
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066CC;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #004499;
+  }
+  
+  .cta-button:active {
+    background-color: #003366;
+  }
   

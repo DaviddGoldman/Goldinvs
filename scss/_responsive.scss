@@ -1,0 +1,91 @@
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+      }
+    
+      li {
+        margin: 5px 0;
+      }
+    
+      a {
+        padding: 5px;
+        transition: background-color 0.3s ease;
+      }
+    
+      a:hover {
+        background-color: #FFFFFF;
+        color: #0066CC;
+      }
+    }
+    
+
+    /* Estilos de secciones */
+    section {
+      padding: 20px 0;
+    }
+  
+    /* ... */
+  
+    /* Estilos de pie de página */
+    footer p {
+      font-size: 12px;
+    }
+
+     }
+
+  
+  
+  /* Estilos para dispositivos con un ancho máximo de 480px */
+  @media (max-width: 480px) {
+    .logo {
+        font-size: 20px;
+      }
+      
+      .nav-toggle {
+        display: block;
+      }
+      
+      .nav-menu {
+        display: none;
+        flex-direction: column;
+        margin-top: 10px;
+      }
+      
+      .nav-menu li {
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+      
+      .nav-menu a {
+        padding: 8px;
+      }
+      
+      .navbar.active .nav-menu {
+        display: flex;
+      }
+    }
+      
+
+
+
+      .cta-button {
+        padding: 6px 12px;
+        font-size: 14px;
+      }
+    
+
+
+    /* Estilos de secciones */
+    section {
+      padding: 10px 0;
+    }
+  
+
+
+
+  
+    /* Estilos de pie de página */
+    footer p {
+      font-size: 10px;
+    }
+  
