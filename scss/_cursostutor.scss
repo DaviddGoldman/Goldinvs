@@ -139,3 +139,44 @@
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
   }
   
+  .curso-two {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .curso-two:hover {
+    transform: translateY(-5px);
+  }
+  
+  .curso-two h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .curso-two p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .curso-two a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066CC;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .curso-two a:hover {
+    background-color: #004B8C;
+  }
